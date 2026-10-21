@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,PinHeader_1x02_P2.54mm_Vertical,1,Battery,
+C1,CP_Elec_6.3x7.7,1,220uF,C2827940
+C2,0603,1,2.2uF,C23630
+D1,D_SMA_Handsoldering,1,SS14,C2480
+D2,D_SOD-123,1,B5819W,C8598
+J1,PinHeader_1x01_P2.54mm_Vertical,1,control_gpio,
+L1,PinHeader_1x02_P2.54mm_Vertical,1,1mH,
+Q1,SOT-23_Handsoldering,1,AO3400A,C20917
+R1,0603,1,100k,C25803
+R2,0603,1,100R,C22775
