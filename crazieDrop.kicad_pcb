@@ -2946,7 +2946,7 @@
 	(segment
 		(start 147.85 95.475)
 		(end 149.475 97.1)
-		(width 0.2)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "37b4b5af-b66e-405b-bb25-39e594a9399a")
@@ -3026,7 +3026,7 @@
 	(segment
 		(start 149.475 97.1)
 		(end 151.5 97.1)
-		(width 0.2)
+		(width 0.5)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "dd427aab-9302-4119-b63b-e21f393ef5ca")
