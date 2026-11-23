@@ -4179,7 +4179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C354574.pdf"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4201,7 +4201,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C354574"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,10 @@
+geometry.py
+materials.py
+plotting.py
+pyproject.toml
+solvers.py
+craziedrop_opt.egg-info/PKG-INFO
+craziedrop_opt.egg-info/SOURCES.txt
+craziedrop_opt.egg-info/dependency_links.txt
+craziedrop_opt.egg-info/requires.txt
+craziedrop_opt.egg-info/top_level.txt
