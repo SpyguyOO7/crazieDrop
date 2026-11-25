@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1100 760">
+  <title>Experiment 08: rim core and iron magnet cap</title>
+  <desc>Dimensioned axial section of the 0.60 mm rim, 0.80 mm recess core and side view of the iron cap. Dimensions are nominal in millimeters.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#222"/></marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#aaa" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1100" height="760" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#222">
+    <text x="45" y="46" font-size="25" font-weight="bold">Experiment 08 — core and iron magnet cap</text>
+    <text x="45" y="72" font-size="15">Nominal dimensions in mm • selected core: rim_w0p60_cup0p8 • not to print scale</text>
+
+    <text x="75" y="122" font-size="20" font-weight="bold">1. Core — axial section</text>
+    <text x="675" y="122" font-size="20" font-weight="bold">2. Iron cap — side view</text>
+    <text x="675" y="145" font-size="15">Solid disk; no bore</text>
+
+    <!-- Core: 40 drawing units per mm, center x=300. -->
+    <path d="M 212 170 H 388 V 490 H 364 V 458 L 300 438.8 L 236 458 V 490 H 212 Z" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+    <line x1="300" y1="150" x2="300" y2="510" stroke="#555" stroke-width="1" stroke-dasharray="9 5 2 5"/>
+    <!-- Outer diameter -->
+    <g stroke="#222" fill="none" stroke-width="1.3">
+      <path d="M212 170 V143 M388 170 V143"/>
+      <path d="M212 150 H388" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <!-- Overall length -->
+      <path d="M212 170 H137 M212 490 H137"/>
+      <path d="M150 170 V490" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <!-- Bore diameter -->
+      <path d="M236 490 V549 M364 490 V549"/>
+      <path d="M236 535 H364" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <!-- Cup depth -->
+      <path d="M388 458 H484 M388 490 H484"/>
+      <path d="M468 458 V490" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <!-- Cone height -->
+      <path d="M300 438.8 H546 M364 458 H546"/>
+      <path d="M530 438.8 V458" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    </g>
+    <text x="300" y="140" text-anchor="middle" font-size="17">Ø4.40</text>
+    <text x="130" y="330" text-anchor="middle" font-size="17" transform="rotate(-90 130 330)">8.00 overall</text>
+    <text x="300" y="562" text-anchor="middle" font-size="17">Ø3.20 bore</text>
+    <text x="480" y="481" font-size="16">0.80 recess</text>
+    <text x="540" y="438" font-size="15">0.48 cone rise</text>
+    <text x="300" y="593" text-anchor="middle" font-size="15">Annular contact rim: 0.60 radial width</text>
+
+    <!-- Solid iron cap, same scale. -->
+    <rect x="683" y="258" width="254" height="64" fill="white" stroke="#222" stroke-width="2.5"/>
+    <line x1="810" y1="238" x2="810" y2="342" stroke="#555" stroke-width="1" stroke-dasharray="9 5 2 5"/>
+    <g stroke="#222" fill="none" stroke-width="1.3">
+      <path d="M683 258 V214 M937 258 V214"/>
+      <path d="M683 225 H937" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <path d="M937 258 H1000 M937 322 H1000"/>
+      <path d="M985 258 V322" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    </g>
+    <text x="810" y="214" text-anchor="middle" font-size="17">Ø6.35</text>
+    <text x="1003" y="295" font-size="17">1.60</text>
+    <text x="683" y="365" font-size="15">Cap sits between core contact and magnet.</text>
+    <text x="683" y="389" font-size="15">Magnet: Ø6.35 × 2.54 mm (reference only).</text>
+
+    <line x1="45" y1="633" x2="1055" y2="633" stroke="#bbb"/>
+    <text x="45" y="660" font-size="15">Both parts: magnetic iron (as modeled). Core turned from Ø6.35 mm stock.</text>
+    <text x="45" y="683" font-size="15">Recess depth is measured from the contact face to the cylindrical bore / cone junction.</text>
+    <text x="45" y="706" font-size="15">Cone apex is 1.28 mm from the contact face. Confirm tolerances and finish before machining.</text>
+    <text x="45" y="730" font-size="14" fill="#555">Model dimensions only; the 0.015 mm simulated contact gap is not a machined feature.</text>
+  </g>
+</svg>
